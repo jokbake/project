@@ -1,82 +1,98 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>无标题文档</title>
 
-<link href="css/style.css" rel="stylesheet" type="text/css" />
- <script type="text/javascript">    
-function test(obj){    
-imgObj=document.getElementById("img");    
-if(obj.checked){    
-imgObj.style.display="block";    
-}else{    
-imgObj.style.display="none";    
-}    
-}    
-</script>    
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>无标题文档</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript">
+    function test(obj) {
+      imgObj = document.getElementById("img");
+      if (obj.checked) {
+        imgObj.style.display = "block";
+      } else {
+        imgObj.style.display = "none";
+      }
+    }    
+  </script>
 </head>
 
-<body><div class="top">  <div class="log"><a href="reg.html">注册</a> | <a href="login.html">登陆</a> | <a href="lx.html">在线留言</a></div>
-</div></div>
-<div class="head"><img src="images/top.png" width="1000" height="200" /></div>
-<div class="main">
-  
-  <div class="head"></div>
-  <div class="nav">
+<body>
+  <div class="top">
+    <div class="log"><a href="reg.html">注册</a> | <a href="login.html">登陆</a> | <a href="lx.html">在线留言</a></div>
+  </div>
+  </div>
+  <div class="head"><img src="top.png" width="1000" height="200" /></div>
+  <div class="fixed">
     <ul>
-      <li><a href="index.html">首页</a></li>
-      <li><a href="about.html">关于冰岛</a></li>
-    <li><a href="show.html">景点介绍</a></li>
-      <li><a href="photo.html">冰岛美景</a></li>
-      
-      <li><a href="lx.html">游客留言</a></li>
-     
+      <li id="b"><a href="index.html">首页</a></li>
+      <li id="b"><a href="about.html">关于冰岛</a></li>
+      <li id="b"><a href="show.html">景点介绍</a></li>
+      <li id="b"><a href="photo.html">冰岛美景</a></li>
+      <li id="b"><a href="lx.html">游客留言</a></li>
+      <li id="b"><a href="报告.html">报告</a></li>
     </ul>
   </div>
-  <div class="tab">
-    <div class="title">
-      <h1>在线留言</h1>
-      </div>
-    <div class="con">
-      <form id="form1" name="form1" method="post" action="">
-        <table width="90%" border="0" cellspacing="0" cellpadding="0">
-          <tr>
-            <td height="30" align="right">名称：</td>
-            <td><label>
-              <input type="text" name="textfield" />
-            </label></td>
-          </tr>
-          <tr>
-            <td height="30" align="right">邮箱：</td>
-            <td><label>
-              <input type="text" name="textfield2" />
-            </label></td>
-          </tr>
-          <tr>
-            <td height="30" align="right">留言标题：</td>
-            <td><label>
-              <input name="textfield22" type="text" size="60" />
-            </label></td>
-          </tr>
-          <tr>
-            <td align="right">留言内容：</td>
-            <td><textarea name="textfield222" cols="60" rows="8"></textarea></td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td><label>
-              <input type="submit" name="Submit" value="提交" />
-              <input type="reset" name="Submit2" value="重置" />
-            </label></td>
-          </tr>
-        </table>
-      </form>
+  <div class="main">
+
+    <div class="head"></div>
+    <div class="nav">
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">关于冰岛</a></li>
+        <li><a href="show.html">景点介绍</a></li>
+        <li><a href="photo.html">冰岛美景</a></li>
+
+        <li><a href="lx.html">游客留言</a></li>
+        <li class="b"><a href="index.html">报告</a></li>
+      </ul>
     </div>
+    <div class="tab">
+      <div class="title">
+        <h1>在线留言</h1>
+      </div>
+      <div class="con">
+        <form id="form1" name="form1" method="post" action="">
+          <table width="90%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td height="30" align="right">名称：</td>
+              <td><label>
+                  <input type="text" name="textfield" />
+                </label></td>
+            </tr>
+            <tr>
+              <td height="30" align="right">邮箱：</td>
+              <td><label>
+                  <input type="text" name="textfield2" />
+                </label></td>
+            </tr>
+            <tr>
+              <td height="30" align="right">留言标题：</td>
+              <td><label>
+                  <input name="textfield22" type="text" size="60" />
+                </label></td>
+            </tr>
+            <tr>
+              <td align="right">留言内容：</td>
+              <td><textarea name="textfield222" cols="60" rows="8"></textarea></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td><label>
+                  <input type="submit" name="Submit" value="提交" />
+                  <input type="reset" name="Submit2" value="重置" />
+                </label></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="foot"></div>
     <div class="clear"></div>
   </div>
-  <div class="foot"></div>
-  <div class="clear"></div>
-</div>
 </body>
+
 </html>

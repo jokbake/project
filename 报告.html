@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人报告</title>
+</head>
+<style>
+    body {
+        background-image: url(bg.jpg);
+    }
+
+    li {
+        list-style-type: circle;
+    }
+
+    .header,
+    .main,
+    .footer {
+        width: 1000px;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.586);
+        border-radius: 20px;
+    }
+
+    h1,
+    h2,
+    h4 {
+        font-size: 40px;
+        font-family: '华文楷体';
+        font-weight: 800;
+    }
+
+    h2,
+    h4 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+        font-family: '宋体';
+        font-weight: 900;
+    }
+
+    img {
+        width: 700px;
+        border-radius: 20px;
+    }
+
+    img:hover {
+        transform: scale(1.05);
+    }
+
+    .fixed {
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        left: 2%;
+        top: 25%;
+        width: 200px;
+        height: 350px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.642)
+    }
+
+    .fixed ul li {
+        margin: 25px auto;
+        border-radius: 5px;
+        color: skyblue;
+    }
+
+    .fixed ul li a:hover {
+        color: blue;
+    }
+
+    .fixed ul li a {
+        font-size: 28px;
+        font-weight: 800;
+        font-family: '楷体';
+        color: black;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .hot:hover {
+        font-weight: 800;
+    }
+
+    .footer li p,
+    .footer li h2 {
+        font-family: '华文楷体';
+    }
+</style>
+
+<body>
+    <div class="fixed">
+        <ul>
+            <li id="b"><a href="index.html">首页</a></li>
+            <li id="b"><a href="about.html">关于冰岛</a></li>
+            <li id="b"><a href="show.html">景点介绍</a></li>
+            <li id="b"><a href="photo.html">冰岛美景</a></li>
+            <li id="b"><a href="lx.html">游客留言</a></li>
+            <li id="b"><a href="报告.html">报告</a></li>
+        </ul>
+    </div>
+    <div class="header">
+        <h1>个人报告</h1>
+        <h2>人员信息</h2>
+        <ul>
+            <li>
+                <p>组长及成员：胡孟秋</p>
+            </li>
+            <li>
+                <p>班级：软件2213班</p>
+            </li>
+            <li>
+                <p>学号：0223341</p>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>
+            网站介绍
+        </h2>
+        <ul>
+            <li>
+                <p>名称:《冰岛》</p>
+            </li>
+            <li>
+                <p>主题:冰岛</p>
+            </li>
+            <li>
+                <p>主题内容:主要是介绍一下冰岛优美的风景</p>
+            </li>
+            <li>
+                <p>选题目的：冰岛是我最喜欢的国家之一，仿佛置身于一个冰雪世界中。</p>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <h2>
+            网站设计
+        </h2>
+        <p>本网站由六个网页构成，可以通过链接来实现跳转。</p>
+        <ul>
+            <li>
+                <h4>首页</h4>
+                <ol>
+                    <li>
+                        <p>导航栏：运用了绝对定位和相对定位（postion ,relative ,absolute）、还运用了浮动（float,clear）
+                            二级导航栏运用了隐藏（display）设置了伪类。
+                        </p>
+                        <img src="首页.png" alt="">
+                        <img src="首页3.png" alt="">
+                    </li>
+                    <li>
+                        <p>侧边栏：运用了fixed、clear。使用了无序列表（ul）</p>
+                        <img src="首页2.png" alt="">
+                    </li>
+                    <li>
+                        <p>轮播图：运用了js可以来回切换图片</p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h4>关于冰岛</h4>
+                <ol>
+
+                    <p>文字样式，文本格式</p>
+                    <img src="关于冰岛.png" alt="">
+                </ol>
+            </li>
+
+
+
+            <li>
+                <h4>冰岛美景</h4>
+                <ol>
+                    <li>
+                        <p>运用了浮动（float）</p>
+                    </li>
+                    <li>
+                        <p>设置了伪类，鼠标浮于上方会出现暗淡</p>
+                    </li>
+                    <img src="冰岛风景.png" alt="">
+
+                </ol>
+
+            </li>
+            <h4>游客留言</h4>
+            <ol>
+                <li>
+                    <p>文字样式，文本格式</p>
+                </li>
+            </ol>
+            <img src="电影寓意.png" alt="">
+            </li>
+            </li>
+            <li>
+                <h4>游客留言</h4>
+                <img src="游客留言.png" alt="">
+            </li>
+        </ul>
+
+    </div>
+    <div class="footer">
+        <h2 class="hot">自我评价</h2>
+        <ol>
+            <li>
+                <p class="hot">运用的技术较少，主题的风格比较统一。动画效果运用得较少。</p>
+            </li>
+            <li>
+                <p class="hot">整体还是比较美观的。</p>
+            </li>
+        </ol>
+        <h2 class="hot">总结</h2>
+        <ol>
+            <li>
+                <p class="hot">在完成这个作业的过程使我了解到了更多的知识，同时也巩固了之前学习的内容。</p>
+            </li>
+            <li>
+                <P class="hot">虽然这次作业做出来的效果还比较简陋，但是收获了更多的知识。在今后的学习中，需要不断的去钻研，汲取新的知识。</P>
+            </li>
+        </ol>
+    </div>
+</body>
+
+</html>
